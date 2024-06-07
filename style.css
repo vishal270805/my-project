@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.container
+{
+    width: 100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(21, 24, 36, 0.938),rgba(92, 6, 113, 0.933),rgba(38, 90, 173, 0.933)),url(./folder1/background.png);
+    background-position: center;
+    padding: 10px 8%;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo
+{
+    width: 180px;
+    cursor:pointer;
+}
+
+
+nav ul{
+    
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li{
+
+    display: inline;
+    margin:10px 20px;
+}
+
+nav ul li a{
+    color:rgb(89, 166, 237);
+    text-decoration: none; 
+    }
+
+nav ul li a:hover{
+    color: #ff0443;
+    transition: all 0.5s ease 0s;
+    transform: rotateY(180 deg);
+
+}
+
+.btn
+{
+    display: flex;
+    align-items:center ;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    background-color:#e11045 ;
+    color:white;
+    font-weight: 1000;
+    cursor:crosshair;
+   
+    
+    
+}
+
+.btn img{
+    width:20px;
+    margin-right:10px
+}
+
+.content
+{
+    margin-top: 14%;
+    max-width: 620px;
+    color:white;
+}
+
+.content h1{
+    font-size: 70px;
+    font-weight: 60;
+    line-height: 80px;
+    margin-bottom: 30px;
+}
+
+.content form {
+    display: flex;
+    align-items: center; 
+    background:#fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.content form input{
+    border:0;
+    outline:0;
+    margin-right:350px;
+    font-size: 15px;
+    
+}
+
+.content form button{
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: rgb(159, 6, 225);
+}
+
+.content form button:hover{
+    background-color: black;
+    color: #ff045c;
+    border-radius: 40px;
+    transition: all 0.4s ;
+}
